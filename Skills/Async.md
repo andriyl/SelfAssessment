@@ -1,89 +1,89 @@
 ## Asynchronous programming
 
 - Theory
-  - Event loop !
-  - `try..catch` !
-  - Non-blocking *
-  - Async I/O *
-  - Thread pool +
-  - Pattern Reactor !
-  - CAS operations ~
-  - epoll ~
-  - kqueue ~
-  - Completion ports ~
-  - Event ports ~
-  - libuv !
-  - Race conditions +
-  - Dead locks ~
-  - Live locks ~
-  - Concurrent programming ~
-  - Parallel programming ~
-  - Actor Model ~
-  - Thread +
-  - Process +
+  - Event loop: 🙋 explained
+  - `try..catch`: 🙋 explained
+  - Non-blocking: 🖐️ used
+  - Async I/O: 🖐️ used
+  - Thread pool: 🎓 known
+  - Pattern Reactor: 🙋 explained
+  - CAS operations: 👂 heard
+  - epoll: 👂 heard
+  - kqueue: 👂 heard
+  - Completion ports: 👂 heard
+  - Event ports: 👂 heard
+  - libuv: 🙋 explained
+  - Race conditions: 🎓 known
+  - Dead locks: 👂 heard
+  - Live locks: 👂 heard
+  - Concurrent programming: 👂 heard
+  - Parallel programming: 👂 heard
+  - Actor Model: 👂 heard
+  - Thread: 🎓 known
+  - Process: 🎓 known
 - Async contracts
-  - Callbacks !
-  - Callback-last-error-first !
-  - Thenable ~
-  - Promise !
-  - Async/await !
-  - Future ~
-  - Deferred ~
-  - Sync generator ~
-  - Async Generator ~
-  - Async Iterator ~
-  - Event ~
-  - Coroutine ~
-  - Goroutine ~
-  - Signal ~
-  - Stream *
-  - Chain of responsibility ~
-  - Middleware *
-  - Locks ~
+  - Callbacks: 🙋 explained
+  - Callback-last-error-first: 🙋 explained
+  - Thenable: 👂 heard
+  - Promise: 🙋 explained
+  - Async/await: 🙋 explained
+  - Future: 👂 heard
+  - Deferred: 👂 heard
+  - Sync generator: 👂 heard
+  - Async Generator: 👂 heard
+  - Async Iterator: 👂 heard
+  - Event: 👂 heard
+  - Coroutine: 👂 heard
+  - Goroutine: 👂 heard
+  - Signal: 👂 heard
+  - Stream: 🖐️ used
+  - Chain of responsibility: 👂 heard
+  - Middleware: 🖐️ used
+  - Locks: 👂 heard
 - Async adapters and utils
-  - callbackify ~
-  - promisify * 
-  - asyncify ~
-  - Callbacks compose ~
-  - Async compose ~
+  - callbackify: 👂 heard
+  - promisify: 🖐️ used
+  - asyncify: 👂 heard
+  - Callbacks compose: 👂 heard
+  - Async compose: 👂 heard
 - Async abstractions interfaces
-  - EventEmitter *
-  - Observable/Observer ~
-  - Readable ~
-  - Writable ~
-  - Transform ~
-  - Async Pool ~
-  - Async Queue ~
-  - Async Collector ~
-  - Semaphore ~
-  - Mutex ~
-  - Spin Lock ~
+  - EventEmitter: 🖐️ used
+  - Observable/Observer: 👂 heard
+  - Readable: 👂 heard
+  - Writable: 👂 heard
+  - Transform: 👂 heard
+  - Async Pool: 👂 heard
+  - Async Queue: 👂 heard
+  - Async Collector: 👂 heard
+  - Semaphore: 👂 heard
+  - Mutex: 👂 heard
+  - Spin Lock: 👂 heard
 - JavaScript & Node.js specific
-  - Timers *
-  - `setImmediate` *
-  - `nextTick` *
-  - AbortController ~
-  - AbortSignal ~
-  - Promise unhandled rejection *
-  - Promise double resolve ~
-  - Atomics ~
-  - High resolution clock ~
-  - Callback hell !
-  - Promise hell ~
-  - ref() and unref() ~
-  - Error handling in async code *
-  - Better stack traces with return await ~
-  - JSON streaming serialization ~
-  - AsyncLocalStorage ~
-  - AsyncResource ~
+  - Timers: 🖐️ used
+  - `setImmediate`: 🖐️ used
+  - `nextTick`: 🖐️ used
+  - AbortController: 👂 heard
+  - AbortSignal: 👂 heard
+  - Promise unhandled rejection: 🖐️ used
+  - Promise double resolve: 👂 heard
+  - Atomics: 👂 heard
+  - High resolution clock: 👂 heard
+  - Callback hell: 🙋 explained
+  - Promise hell: 👂 heard
+  - ref() and unref(): 👂 heard
+  - Error handling in async code: 🖐️ used
+  - Better stack traces with return await: 👂 heard
+  - JSON streaming serialization: 👂 heard
+  - AsyncLocalStorage: 👂 heard
+  - AsyncResource: 👂 heard
 - Techniques
-  - Async.js library *
-  - RxJS library ~
-  - Promise.all !
-  - Promise.allSettled !
-  - Promise.race *
-  - Promise.any *
-  - Web Locks API ~
-  - IPC ~
-  - Channel API ~
-  - Revealing constructor ~
+  - Async.js library: 🖐️ used
+  - RxJS library: 👂 heard
+  - Promise.all: 🙋 explained
+  - Promise.allSettled: 🙋 explained
+  - Promise.race: 🖐️ used
+  - Promise.any: 🖐️ used
+  - Web Locks API: 👂 heard
+  - IPC: 👂 heard
+  - Channel API: 👂 heard
+  - Revealing constructor: 👂 heard
